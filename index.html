@@ -11,9 +11,10 @@
 		<div id="jsonChoice">Choose a new hashtag to view: <select id="hashtagChoice" onchange="changeJSON()">
 			  <option value="trump">#Trump</option>
 			  <option value="kanye">#Kanye</option>
-			  <option value="nofilter">#nofilter</option>
-			  <option value="news">#News</option>
-			  <option value="love">#love</option>
+			  <option value="kesha">#Kesha</option>
+			  <option value="gun">#gun</option>
+			  <option value="snow">#snow</option>
+			  <option value="obama">#snow</option>
 			</select></div>
 		</div>
 		<div id="dataViz">
@@ -70,7 +71,7 @@
 		    .text(function(d) { return d.name });
 		//basic map config with custom fills
 		var map = new Datamap({
-			scope: 'world',
+			scope: 'usa',//'world',
 			element: document.getElementById('dataViz'),
 			projection: 'mercator',
 			height: 600,
