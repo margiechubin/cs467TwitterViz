@@ -4,7 +4,9 @@ This is the visualization my group created for a group project in CS 467.
 go to http://margiechubin.github.io/cs467TwitterViz/
 
 ### To run the script:
-* download all the files and run ./start.sh in the terminal
+* download all the files
+* run sudo chmod 777 start.sh
+* run ./start.sh in the terminal
 * you will probably need to install the twitter module as well: pip install twitter
 
 ### Important files included are:
